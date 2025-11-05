@@ -1,1 +1,1 @@
-# Parralel_Computing_CPU_OpenMP
+# Parallel_Computing_CPU_OpenMP
