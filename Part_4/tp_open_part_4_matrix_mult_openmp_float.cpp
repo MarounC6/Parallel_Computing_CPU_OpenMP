@@ -145,4 +145,5 @@ int main(int argc, char **argv)
 		printf("\n Hey, it worked");
 
 	printf("\n all done \n");
+	printf(" N %d M %d P %d multiplication in %f seconds \n", Ndim, Mdim, Pdim, time);
 }
