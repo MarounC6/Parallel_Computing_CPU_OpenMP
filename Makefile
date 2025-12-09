@@ -69,7 +69,7 @@ $(BIN_DIR)/tp_openmp_part_2_open_mp: $(PART2_DIR)/tp_openmp_part_2_vector_openmp
 	$(CXX) $(CXXFLAGS) $(OMPFLAGS) $< -o $@
 
 $(BIN_DIR)/tp_openmp_part_2_simd: $(PART2_DIR)/tp_openmp_part_2_vector_simd.cpp
-	$(CXX) $(CXXFLAGS) $(SIMDFLAGS) $< -o $@
+	$(CXX) $(CXXFLAGS) $(OMPFLAGS) $(SIMDFLAGS) $< -o $@
 
 # ========== PART 3: Fibonacci ==========
 part3: $(BIN_DIR)/tp_openmp_part_3_fib_sequential \
